@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <title>grant+chester</title>
+  <style>
+    .background {
+      position: fixed;
+      inset: 0;
+      background: linear-gradient(165deg, #887EA5 15%, #BFA8CC, #CF98AA, #FFAB97 85%, #FFBD86);
+      background-image: url(./ferdinand-stohr-iW1WzbuWMcA-unsplash.jpeg);
+      filter: brightness(80%);
+      height: 100%;
+      z-index: -1;
+    }
+    .image {
+      background-image: url(./ferdinand-stohr-iW1WzbuWMcA-unsplash.jpeg);
+      background-size: cover;
+    }
+    body {
+      margin: 0px;
+      font-family: 'Special Elite', cursive;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .body {
+      flex: 1;
+      margin: 16px;
+    }
+    h1 {
+      margin-bottom: 8px;
+    }
+    ul {
+      font-size: 24px;
+      margin: 0;
+      padding-top: 0;
+      padding-left: 20px;
+    }
+    footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 16px;
+    }
+    footer ul {
+      font-size: 32px;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    a {
+      display: inline-block;
+      color: #fff;
+      transition: all .1s ease-out
+    }
+    a:hover {
+      transform: scale(1.2, 1.2) rotate(-10deg);
+    }
+    @media (max-width: 800px){
+      footer {
+        justify-content: flex-end;
+      }
+      a {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="image background"></div>
+  <div class="body">
+    <h1>grant+chester</h1>
+    <ul>
+      <li>musician</li>
+      <li>performer</li>
+      <li>writer</li>
+    </ul>
+  </div>
+  <footer>
+    <ul>
+      <li><a href="https://www.youtube.com/channel/UC4yrnuZ0EjwH9rhscmFj2BQ">youtube</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
