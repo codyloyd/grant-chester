@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <title>grant+chester</title>
+  <style>
+    .background {
+      position: fixed;
+      inset: 0;
+      background: linear-gradient(165deg, #887EA5 15%, #BFA8CC, #CF98AA, #FFAB97 85%, #FFBD86);
+      background-image: url(./ferdinand-stohr-iW1WzbuWMcA-unsplash.jpeg);
+      filter: brightness(80%);
+      height: 100%;
+      z-index: -1;
+    }
+    .image {
+      background-image: url(./ferdinand-stohr-iW1WzbuWMcA-unsplash.jpeg);
+      background-size: cover;
+    }
+    body {
+      margin: 0px;
+      font-family: 'Special Elite', cursive;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      inset: 0;
+      overflow: hidden;
+    }
+    .body {
+      flex: 1;
+      margin: 16px;
+      height: 100%;
+      overflow: auto;
+    }
+    h1 {
+      margin-bottom: 8px;
+      margin-top: 8px;
+      font-size: 48px;
+    }
+    ul {
+      font-size: 24px;
+      margin: 0;
+      padding-top: 0;
+      padding-left: 0px;
+      display: flex;
+      gap: 16px;
+      list-style-type: none;
+      flex-wrap: wrap;
+    }
+    li {
+      position: relative;
+    }
+    li:after {
+      position: relative;
+      content: "•";
+      left: 8px;
+    }
+    li:last-of-type:after {
+      display: none;
+    }
+    footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 16px;
+    }
+    footer ul {
+      font-size: 32px;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    a {
+      display: inline-block;
+      color: #fff;
+      transition: all .1s ease-out
+    }
+    p {
+      max-width: 700px;
+      margin: 0px auto;
+      padding: 12px;
+      font-size: 20px;
+      line-height: 1.1;
+      background: rgba(0, 0, 0, 0.3);
+    }
+    .bio {
+      margin-top: 32px;
+    }
+    a:hover {
+      transform: scale(1.2, 1.2) rotate(-10deg);
+    }
+    @media (max-width: 800px){
+      h1 {
+        font-size: 36px;
+      }
+      footer {
+        justify-content: flex-end;
+      }
+      a {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="image background"></div>
+  <div class="body">
+    <h1>grant+chester</h1>
+    <ul>
+      <li>guitarist</li>
+      <li>bassist</li>
+      <li>vocalist</li>
+      <li>drummer</li>
+    </ul>
+    <div class="bio">
+      <p>hello, <br>
+      grant+chester here,</p>
+      <p>
+        i'm a musician based out of Kansas City, MO. i have been playing music since the age of 5 and have an undergraduate degree in jazz commercial performance and a master's degree in music from the University of Central Missouri. <br>
+        i play a wide variety of songs from rock, jazz, folk and country on a number of instruments (i stick to my guitar for the most part). if you wanna get a sense of what i sound like, click the youtube and bandcamp links below. if you want a deep dive into my discog, check out my #1 fan's youtube channel jane klinksick.<br>
+        performing is my favorite thing to do and i will play almost any type of gig (solo, cover bands, musicals, weddings, hootenannies) - so consider me for your next musical setting!
+      </p>
+      <p>
+        god speed
+      </p>
+    </div>
+  </div>
+  <footer>
+    <ul>
+      <li><a href="https://www.youtube.com/channel/UC4yrnuZ0EjwH9rhscmFj2BQ">youtube</a></li>
+      <li><a href="https://grantchester.bandcamp.com/track/wayfaring-stranger">bandcamp</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
